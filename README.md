@@ -6,5 +6,6 @@
 - Status: Prototype finished
 - Programming language: No programming needed in this stage of the Product
 .
+
 # Development Plattform:
 macOS Sierra Version 10.12.3 + macOS Sierra Version 10.12.6 -> Adobe Photoshop 2017.0.0 Release -> Adobe After Effects CC Version 14.2.1.34
