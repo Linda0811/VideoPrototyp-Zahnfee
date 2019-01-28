@@ -1,30 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class SceneSwitcher : MonoBehaviour {
+public class SceneSwitcher : MonoBehaviour
+{
 
-    enum scenes { Start, Main, End };
-
-    public void LoadStartScene()
+    public void SceneSwitch()
     {
-        SceneManager.LoadScene((init)scenes.Start);
+        SceneManager.LoadScene(1);
+        Debug.Log("Angeklickt");
     }
 
-    public void LoadMainScene()
+    public void SceneSwitch2()
     {
-        SceneManager.LoadScene((init)scenes.Main)
+        SceneManager.LoadScene(2);
+        Debug.Log("Angeklickt");
     }
-
-    public void LoadEndScene()
-    {
-        SceneManager.LoadScene((init)scenes.End)
-    }
-
-    public void QuitGame ()
-    {
-        Application.Quit();
-        Debug.Log("Quit");
-    }
-
 }
